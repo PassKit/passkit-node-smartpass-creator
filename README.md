@@ -28,7 +28,7 @@ pass links at scale without the need for Developer Resources or the need to impl
 * Does not support older versions of PassKit (Cherry Pie, and the v2/v3 API's).
 
 ## How to use:
-* run `go get github/PassKit/passkit-golang-smartpass-creator`
+* run `npm i @passkit/node-smartpass-generator` or `yarn add @passkit/node-smartpass-generator`
 * Get your Project URL: copy from Distribution >> SmartPass Settings in PassKit IO Portal:
 
 ![Project URL](/images/project-url.png)
@@ -42,29 +42,16 @@ pass links at scale without the need for Developer Resources or the need to impl
 
 #### GenerateEncryptedSmartPassLink
 ```
-package main
+import { GenerateSmartPassLink } from "@passkit/node-smartpass-creator"
 
-import (
-	"fmt"
-	smartpass "github.com/PassKit/passkit-golang-smartpass-creator"
-)
-
-func main() {
-
-	fields := map[string]string{
-		"members.tierId": "bronze",
-	}
-
-	distributionUrl := "https://pub1.pskt.io/c/abcde"
-	key := "6147d7def9ed94367a1e09c548c0745faa99aa71e940463d2d82cc0591250000"
-
-	url, err := smartpass.GenerateEncryptedSmartPassLink(fields, distributionUrl, key)
-	if err != nil {
-		fmt.Println("Error: ", err.Error())
-	}
-
-	fmt.Println(url)
+const fields = {
+  "members.tierId": "bronze"
 }
+
+const distributionUrl := "https://pub1.pskt.io/c/abcde"
+const key := "6147d7def9ed94367a1e09c548c0745faa99aa71e940463d2d82cc0591250000"
+
+const url = GenerateSmartPassLink(fields, distributionUrl, key)
 ```
 
 ## Available Field Names
