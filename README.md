@@ -33,7 +33,7 @@ pass links at scale without the need for Developer Resources or the need to impl
 
 ![Smartpass Location](https://pk-client-frontend.s3.ap-southeast-1.amazonaws.com/smartpass-images/smartpass-location.png)
 
-![Project URL and Encryption Key]([https://pk-client-frontend.s3.ap-southeast-1.amazonaws.com/smartpass-images/smartpass-location.png](https://pk-client-frontend.s3.ap-southeast-1.amazonaws.com/smartpass-images/smartpass-url-and-key.png)
+![Project URL and Encryption Key](https://pk-client-frontend.s3.ap-southeast-1.amazonaws.com/smartpass-images/smartpass-location.png](https://pk-client-frontend.s3.ap-southeast-1.amazonaws.com/smartpass-images/smartpass-url-and-key.png)
 
 
 ## API
