@@ -31,9 +31,9 @@ pass links at scale without the need for Developer Resources or the need to impl
 * run `npm i @passkit/node-smartpass-generator` or `yarn add @passkit/node-smartpass-generator`
 * Get your Project URL and Encryption Key: copy from Distribution >> SmartPass Settings in PassKit IO Portal:
 
-![Smartpass Location](https://pk-client-frontend.s3.ap-southeast-1.amazonaws.com/smartpass-images/smartpass-location.png)
+![Smartpass Location Project Url](https://github.com/user-attachments/assets/2f689a9d-b4f4-42ac-8a9c-6d60d214ad1b)
 
-![Project URL and Encryption Key](https://pk-client-frontend.s3.ap-southeast-1.amazonaws.com/smartpass-images/smartpass-url-and-key.png)
+![Smartpass Location Encryption Key](https://github.com/user-attachments/assets/6ef25ac1-ee2b-4830-9f18-3312ffecd8a1)
 
 
 ## API
